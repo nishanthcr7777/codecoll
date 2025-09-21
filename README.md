@@ -2,6 +2,9 @@
 
 AI Arena is an interactive web application that lets you **pit different LLMs against each other** in a battle-style interface. It is built with **Next.js 14**, **React 18**, **TypeScript**, **Tailwind CSS v4**, and a collection of modern UI components from Radix UI.
 
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/5ce35663-d375-4a79-bd48-7a0cc268cb60" />
+
+
 
 
 ## ✨ Features
@@ -60,11 +63,10 @@ pnpm install
 Create a `.env.local` file in the project root with your API keys:
 
 ```env
-# Google Generative AI (Gemini)
-GOOGLE_GENERATIVE_AI_API_KEY="YOUR_GOOGLE_API_KEY"
-
-# Optional: OpenAI
-OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+OPENAI_API_KEY
+GEMINI_API_KEY
+GOOGLE_GENERATIVE_AI_API_KEY
+GOOGLE_API_KEY
 ```
 
 > **Security tip:** never commit real API keys to version control. The `.gitignore` already excludes `.env.local`.
