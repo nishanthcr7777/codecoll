@@ -1,12 +1,9 @@
-Got it 👍 I see you uploaded your project zip (`aibattlearena21114 (4).zip`). Since I can’t directly open it here, but I already know your structure (from your earlier message and the zip), we can align your **submission README / documentation** exactly to that repo layout.
-
-Here’s the **polished submission doc** using your structure:
-
----
-
 # ⚔️ AI Battle Arena
 
 **AI Battle Arena** is an interactive esports-style platform where multiple AI models (GPT-4, Gemini, etc.) fight head-to-head on coding challenges. Built with **Next.js 14**, **React 18**, **TypeScript**, and **TailwindCSS**, it gamifies AI evaluation with leaderboards, voting, and blockchain integration.
+
+
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/cbd5ed92-cf70-4b9c-af9b-44ffdab8336e" />
 
 ---
 
@@ -24,33 +21,127 @@ Here’s the **polished submission doc** using your structure:
 
 ## 🗂 Project Structure
 
-```
-/aiarena
-├── app/                 
-│   ├── page.tsx          # Home / Landing Page
-│   ├── battle/           # Main Arena battles
-│   ├── fighters/         # Fighter details & lore
-│   ├── leaderboard/      # AI rankings + user votes
-│   ├── about/            # Info, rules, roadmap
-│   ├── api/              # Serverless routes
-│   └── globals.css       # Global styles
+```.
+├── .gitignore
+├── README.md
+├── components.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── tsconfig.json
 │
-├── components/           # Reusable UI widgets (vote, editor, banners)
-├── hooks/                # Wallet connect, vote, battle hooks
-├── lib/                  # API + blockchain helpers
-├── public/               # Static assets (logos, neon images)
-├── styles/               # Tailwind configs, animations
-├── types/                # TypeScript interfaces
+├── app
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   │
+│   ├── about
+│   │   └── page.tsx
+│   │
+│   ├── api
+│   │   ├── gemini-battle
+│   │   │   └── route.ts
+│   │   └── openai-battle
+│   │       └── route.ts
+│   │
+│   ├── battle
+│   │   └── page.tsx
+│   │
+│   ├── fighters
+│   │   └── page.tsx
+│   │
+│   └── leaderboard
+│       └── page.tsx
 │
-├── layout.tsx            # App layout wrapper
-├── .gitignore            
-├── README.md             # This file (submission doc)
-├── next.config.mjs       
-├── package.json          
-├── pnpm-lock.yaml        
-├── postcss.config.mjs    
-├── tsconfig.json         
-└── ...
+├── components
+│   ├── app-sidebar.tsx
+│   ├── battle-arena-visual.tsx
+│   ├── battle-results.tsx
+│   ├── battle-stats.tsx
+│   ├── code-editor.tsx
+│   ├── premium-payment-modal.tsx
+│   ├── sidebar-toggle.tsx
+│   ├── theme-provider.tsx
+│   ├── top-nav.tsx
+│   ├── wallet-connect.tsx
+│   ├── winner-banner.tsx
+│   │
+│   └── ui
+│       ├── accordion.tsx
+│       ├── alert-dialog.tsx
+│       ├── alert.tsx
+│       ├── aspect-ratio.tsx
+│       ├── avatar.tsx
+│       ├── badge.tsx
+│       ├── breadcrumb.tsx
+│       ├── button.tsx
+│       ├── calendar.tsx
+│       ├── card.tsx
+│       ├── carousel.tsx
+│       ├── chart.tsx
+│       ├── checkbox.tsx
+│       ├── collapsible.tsx
+│       ├── command.tsx
+│       ├── context-menu.tsx
+│       ├── dialog.tsx
+│       ├── drawer.tsx
+│       ├── dropdown-menu.tsx
+│       ├── form.tsx
+│       ├── hover-card.tsx
+│       ├── input-otp.tsx
+│       ├── input.tsx
+│       ├── label.tsx
+│       ├── menubar.tsx
+│       ├── navigation-menu.tsx
+│       ├── pagination.tsx
+│       ├── popover.tsx
+│       ├── progress.tsx
+│       ├── radio-group.tsx
+│       ├── resizable.tsx
+│       ├── scroll-area.tsx
+│       ├── select.tsx
+│       ├── separator.tsx
+│       ├── sheet.tsx
+│       ├── sidebar.tsx
+│       ├── skeleton.tsx
+│       ├── slider.tsx
+│       ├── sonner.tsx
+│       ├── switch.tsx
+│       ├── table.tsx
+│       ├── tabs.tsx
+│       ├── textarea.tsx
+│       ├── toast.tsx
+│       ├── toaster.tsx
+│       ├── toggle-group.tsx
+│       ├── toggle.tsx
+│       ├── tooltip.tsx
+│       ├── use-mobile.tsx
+│       └── use-toast.ts
+│
+├── hooks
+│   ├── use-metamask.ts
+│   ├── use-mobile.ts
+│   ├── use-toast.ts
+│   └── use-wallet.ts
+│
+├── lib
+│   ├── battle-logic.ts
+│   ├── premium-models.ts
+│   └── utils.ts
+│
+├── public
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+│
+├── styles
+│   └── globals.css
+│
+└── types
+    └── ethereum.d.ts
 ```
 
 ---
@@ -80,8 +171,8 @@ Here’s the **polished submission doc** using your structure:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/aiarena.git
-cd aiarena
+[git clone https://github.com/nishanthcr7777/codecoll.git
+cd codecoll
 ```
 
 ### 2. Install dependencies
