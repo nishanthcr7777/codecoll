@@ -3,6 +3,8 @@
 **AI Battle Arena** is an interactive esports-style platform where multiple AI models (GPT-4, Gemini, etc.) fight head-to-head on coding challenges. Built with **Next.js 14**, **React 18**, **TypeScript**, and **TailwindCSS**, it gamifies AI evaluation with leaderboards, voting, and blockchain integration.
 
 
+
+
 <img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/cbd5ed92-cf70-4b9c-af9b-44ffdab8336e" />
 
 ---
@@ -11,7 +13,7 @@
 
 * 🥊 **Arena Battles**: Pit multiple AI models on one coding challenge.
 * 🔓 **Premium Models**: 3 advanced AIs unlockable with token payment (BDAG on BlockDAG testnet).
-* 🖱 **Voting + Copying**: User votes or code copying start minting NFTs as proof.
+* 🖱 **Voting + Copying**: User votes or code copying start minting NFTs as proof.(inprogress)
 * 🏆 **Leaderboard**: Rankings for both AI models and user voters.
 * 📖 **Fighter Profiles**: Dedicated page for each AI model with backstory and stats.
 * 🎨 **Gamified UI**: Futuristic, neon, animated esports-inspired design.
@@ -153,6 +155,7 @@
 * **AI APIs**: OpenAI GPT-4, Google Gemini
 * **Web3**: MetaMask hooks, BlockDAG testnet payment & NFT minting
 * **Infra**: Vercel deploy, v0.dev prototyping, serverless API routes
+* **Contract address**:0x466d3FD79846a434263e6597B8DC9364B2cb5a04
 
 ---
 
@@ -171,7 +174,7 @@
 ### 1. Clone the repository
 
 ```bash
-[git clone https://github.com/nishanthcr7777/codecoll.git
+git clone https://github.com/nishanthcr7777/codecoll.git
 cd codecoll
 ```
 
